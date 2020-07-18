@@ -6,45 +6,10 @@ body{
 }
 
 /**CURRENCIES**/
-
 .currency-button {
   margin: 5px;
   width: 100px;
-
-  /* background-size: 200% auto;
-  border-radius: 10px;
-  border-color: #00d2ff;
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  cursor: pointer; */
 }
-
-/* .currency-button:hover{
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-
-}
-
-.currency-button-gradient {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)}
-
-.currency-button-gradient:hover {
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-
-} */
-
-/* .gradient-button {
-  background-size: 200% auto;
-  border-radius: 10px;
-  border-color: #00d2ff;
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  cursor: pointer;
-}
-.gradient-button:hover{
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-
-}
-
-.gradient-button-4 {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)}
-.gradient-button-4:hover { background-position: right center; } */
-
 
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
@@ -73,7 +38,6 @@ label{
 }
 
 /**SELECTED CURRENCIES**/
-
 .show-selected-currencies {
   display: flex;
   flex-direction: row;
@@ -111,7 +75,6 @@ label{
 }
 
 /** TITLE **/ 
-
 .title{
   position: fixed;
   left: 50%;
