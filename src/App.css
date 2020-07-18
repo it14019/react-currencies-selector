@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+body{
+  background: url('/media/blue-dot.png');
+  background-size: 40px;
+}
+
+/**CURRENCIES**/
+
+.currency-button {
+  margin: 5px;
+  width: 100px;
+
+  /* background-size: 200% auto;
+  border-radius: 10px;
+  border-color: #00d2ff;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  cursor: pointer; */
+}
+
+/* .currency-button:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.currency-button-gradient {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)}
+
+.currency-button-gradient:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+} */
+
+/* .gradient-button {
+  background-size: 200% auto;
+  border-radius: 10px;
+  border-color: #00d2ff;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  cursor: pointer;
+}
+.gradient-button:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.gradient-button-4 {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)}
+.gradient-button-4:hover { background-position: right center; } */
+
+
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  margin-right: 5px;
+}
+
+label{
+  margin-bottom: 0 !important;
+}
+
+.currency-wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  width: 25%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top:15%;
+}
+
+.currency-wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+/**SELECTED CURRENCIES**/
+
+.show-selected-currencies {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+}
+.selected-currency-button{
+  width: 60px;
+  height: 40px;
+  margin: 5px;
+}
+
+.btn, .badge{
+  top: -40px !important;
+  left: 28px;
+}
+
+.badge-light{
+  color: white !important;
+  background-color: black !important;
+}
+
+.badge-light:hover{
+  color: black !important;
+  background-color: white !important;
+}
+
+.badge{
+  border-radius: 30px !important;
+}
+
+.invisible-button{
+  background-color: transparent;
+  outline: none;
+  border:none;
+}
+
+/** TITLE **/ 
+
+.title{
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 120px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
