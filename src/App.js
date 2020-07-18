@@ -16,7 +16,7 @@ function App() {
   const currencyShowHandler = (event) => {
 
     if (!event.target.checked) {
-      setShowCurrencyValue({ currencyValue: '' })
+      setShowCurrencyValue({ currencyValue: '', checked: false })
 
       let index = currencies.findIndex(x => x.currencyValue === event.target.value);
       currencies.splice(index, 1);
